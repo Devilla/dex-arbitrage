@@ -4,9 +4,12 @@
   "description": "",
   "main": "arb.js",
   "scripts": {
+    "deploy":"npx hardhat run ./scripts/deploy.js",
+    "trade":"npx hardhat run ./scripts/trade.js",
+    "recover":"npx hardhat run ./scripts/recover.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dev Yadav",
   "license": "ISC",
   "dependencies": {
     "@ethersproject/experimental": "^5.5.0",
