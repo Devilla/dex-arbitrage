@@ -1,5 +1,5 @@
 {
-  "arbContract": "0x029902a2e57C6C6387f3AdF5eC8a071c1b4e0206",
+  "arbContract": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
   "minBasisPointsPerTrade": 0,
   "routers": [
     { "dex": "trisolaris", "address": "0x2CB45Edb4517d5947aFdE3BEAbF95A582506858B" },
