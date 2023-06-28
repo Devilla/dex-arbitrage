@@ -6,13 +6,14 @@ let config,arb,owner;
 const network = hre.network.name;
 if (network === 'aurora') config = require('./../config/aurora.json');
 if (network === 'fantom') config = require('./../config/fantom.json');
+if (network === 'hardhat') config = require('./../config/hardhat.json');
 
 const main = async () => {
 	[owner] = await ethers.getSigners();
   console.log(`Owner: ${owner.address}`);
   const IArb = await ethers.getContractFactory('Arb');
   arb = await IArb.attach(config.arbContract);
-	const interface = await ethers.getContractFactory('WETH9');
+	const interface = await ethers.getContractFactory('USDT');
   for (let i = 0; i < config.baseAssets.length; i++) {
     const asset = config.baseAssets[i];
 		const tokenAsset = await interface.attach(asset.address);

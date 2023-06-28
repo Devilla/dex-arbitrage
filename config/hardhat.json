@@ -9,7 +9,7 @@
   "baseAssets": [
     { "sym": "weth","address": "0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB" },
     { "sym": "wnear", "address": "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d" },
-    { "sym": "usdt", "address": "0x4988a896b1227218e4A686fdE5EabdcAbd91571f" },
+    { "sym": "usdt", "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3" },
     { "sym": "aurora", "address": "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79" },
     { "sym": "atust", "address": "0x5ce9F0B6AFb36135b5ddBF11705cEB65E634A9dC" },
     { "sym": "usdc", "address": "0xB12BFcA5A55806AaF64E99521918A4bf0fC40802" }
@@ -62,7 +62,7 @@
     {"sym": "UMINT", "address": "0x984c2505a14da732d7271416356f535953610340" },
     {"sym": "UNI", "address": "0x1bc741235ec0ee86ad488fa49b69bb6c823ee7b7" },
     {"sym": "USDC", "address": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802" },
-    {"sym": "USDT", "address": "0x4988a896b1227218e4a686fde5eabdcabd91571f" },
+    {"sym": "USDT", "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3" },
     {"sym": "UST", "address": "0x098d5b6a26bca1d71f2335805d71b244f94e8a5f" },
     {"sym": "WBTC", "address": "0xf4eb217ba2454613b15dbdea6e5f22276410e89e" },
     {"sym": "WSTR", "address": "0xf34d508bac379825255cc80f66cbc89dfeff92e4" },
